@@ -19,10 +19,3 @@ yum -y install which xorg-x11-fonts-Type1 liberation-sans-fonts
 
 # specific to my setup
 mkdir -p /local-storage /mnt/beegfs /baycells/home /baycells/scratch /c6/shared /c6/eb /local/gensoft2 /c6/shared/rpm /Bis/Scratch2 /mnt/beegfs
-
-
-%runscript
-PATH=/opt/blender-2.78c-linux-glibc219-x86_64/:${PATH}
-export PATH
-/opt/blender-2.78c-linux-glibc219-x86_64/blender "$@"
-
